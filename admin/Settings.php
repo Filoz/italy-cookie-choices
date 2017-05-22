@@ -930,12 +930,12 @@ class Settings {
 		<br>
 		<input type="text" id="italy_cookie_choices[infoClass]" name="italy_cookie_choices[infoClass]" value="<?php echo esc_attr( $infoClass ); ?>" placeholder="<?php _e( 'Eg: infoClass', 'italy-cookie-choices' ); ?>" />
 		<label for="italy_cookie_choices[infoClass]">
-			<?php echo __( 'CSS class for Info link (Default <code>itaybtn</code>)', 'italy-cookie-choices' ); ?>
+			<?php echo __( 'CSS class for Info link (Default <code>italybtn</code>)', 'italy-cookie-choices' ); ?>
 		</label>
 		<br>
 		<input type="text" id="italy_cookie_choices[closeClass]" name="italy_cookie_choices[closeClass]" value="<?php echo esc_attr( $closeClass ); ?>" placeholder="<?php _e( 'Eg: closeClass', 'italy-cookie-choices' ); ?>" />
 		<label for="italy_cookie_choices[closeClass]">
-			<?php echo __( 'CSS class for close link (Default <code>itaybtn</code>)', 'italy-cookie-choices' ); ?>
+			<?php echo __( 'CSS class for close link (Default <code>italybtn</code>)', 'italy-cookie-choices' ); ?>
 		</label>
 
 		<p><?php _e( 'Customize with your personal CSS class', 'italy-cookie-choices' ); ?></p>
